@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+body>h4{
+    color: aliceblue;
+    text-align: center;
+    padding: 7 px;
+    background-color: rgb(70, 66, 66);
+}
+.firstcontainer{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.left{
+    width:400px;
+    display:flow-root;
+    overflow: auto;
+}
+.left img{
+    width:100%;
+    border: 25px solid rgb(255, 255, 255);
+    
+}
+h1{
+    color: rgb(104, 105, 105);
+    font-weight: 600;
+}
+.right{
+    width:500px;
+    display: flow-root;
+    overflow: auto;
+} 
+ul{
+    display:flex;
+}
+.right li{
+    list-style: none;
+    width: 250px;
+}
+.lhs{
+    font-weight: 600;
+}
+.links{
+    display: inline-block;
+}
+.contact{
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: inline-flex;
+}
+
+.download{
+    background-color: #0980f5;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+    display: inline-flex;
+}
+.secondcontainer{
+    background-color: rgb(197, 197, 197);
+    justify-content: center;
+}
+.head{
+    text-align: center;
+    padding: 25px;
+    font-weight: 900;
+}
+.skills{
+     flex-wrap: wrap; 
+     display:flex; 
+    justify-content: space-evenly;
+}
+.box{
+    background-color: white;
+    width: 130px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 14px 3px;
+   
+}
+.box h3{
+    font-size: medium;
+}
+.thirdcontainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.thirdcontainer li{
+    list-style:none ;
+    border: 10px solid white;
+    padding-left: 15px;
+}
+.study{
+    display: table-cell;
+    list-style:none ;
+    width: 600px;
+    background-color: #edefef;
+}
+div>ul{
+    padding-left: 0px;
+}
+.fourthcontainer{
+    background-color:  #edefef;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.fourthcontainer h3{
+    text-align: center;
+    padding: 25px 0px 10px;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.images img{
+   max-width: 100%;
+}
+.cart{
+    display: flex;
+    padding: 10px;
+    width: 80px;
+}
+.lastcontainer{
+    background-color: black; 
+    padding-bottom: 30px;  
+}
+.lastcontainer div{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.lastcontainer img{
+    width: 150px;
+    padding: 50px 0px 20px;
+
+}
+
